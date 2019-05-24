@@ -1,6 +1,5 @@
 let i = 0;
 let content = "i don't do much.";
-let currContent = "";
 let speed = 125;
 let wait = 1000;
 
