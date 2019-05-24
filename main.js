@@ -1,5 +1,6 @@
 let i = 0;
 let content = "i don't do much.";
+let currContent = "";
 let speed = 125;
 let wait = 1000;
 
@@ -9,7 +10,7 @@ $(document).ready(function(){
 
 function typeWriter(){
 	if(i < content.length){
-		document.getElementById("bottomtext").innerHTML += content.charAt(i);
+		$("#bottomtext").append(content.charAt(i));
 		i++;
 		setTimeout(typeWriter, speed);
 	} else {
