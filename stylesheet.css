@@ -1,0 +1,92 @@
+html {
+	marign: 0px;
+	padding: 0px;
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	background-color: #d4d4d4;
+	color: #66687f;
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	width: 100%;
+}
+
+span {
+	position: absolute;
+	display: block;
+	height: 100%;
+	background-color: #66687f;
+}
+
+#line1 {
+	width: 9px;
+	right: 9px;
+}
+
+#line2 {
+	width: 6px;
+	right: 24px;
+}
+
+#line3 {
+	width: 3px;
+	right: 33px;
+}
+
+#line4 {
+	width: 2px;
+	right: 38px;
+}
+
+#line5 {
+	width: 1px;
+	right: 41px;
+}
+
+#line6 {
+	width: 1px;
+	right: 43px;
+}
+
+#top {
+	width: 100%;
+	height: 10%;
+	text-align: left;
+	padding: 0px;
+	margin: 0px;
+	display: flex;
+	align-items: center;
+}
+
+#toptitle {
+	text-align: left;
+	font-size: 50px;
+	display: flex;
+	align-items: center;
+	font-family: "Inconsolata", monospace;
+	margin: 0px 0px 0px 20px;
+}
+
+#bottom {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	height: 90%;
+	margin: 0px;
+	padding: 0px;
+}
+
+#bottomtext {
+	display: flex;
+	align-items: center;
+	text-align: left;
+	padding: 0px;
+	margin: 0px 0px 0px 20px;
+	font-size: 16px;
+	vertical-align: middle;
+	font-family: "Inconsolata", monospace;
+}
+
