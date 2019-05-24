@@ -63,7 +63,7 @@ span {
 
 #toptitle {
 	text-align: left;
-	font-size: 50px;
+	font-size: 4em;
 	display: flex;
 	align-items: center;
 	font-family: "Inconsolata", monospace;
@@ -85,7 +85,7 @@ span {
 	text-align: left;
 	padding: 0px;
 	margin: 0px 0px 0px 20px;
-	font-size: 16px;
+	font-size: 1.2em;
 	vertical-align: middle;
 	font-family: "Inconsolata", monospace;
 }
