@@ -12,5 +12,10 @@ function typeWriter(){
 		document.getElementById("bottomtext").innerHTML += content.charAt(i);
 		i++;
 		setTimeout(typeWriter, speed);
-	}
+	} else {
+		setTimeout(function(){
+			$("#bottomtext").css("animation", "none");
+			$("#bottomtext").css("border", "none");
+		 }, 2700);
+	};
 }

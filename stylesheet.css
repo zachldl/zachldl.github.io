@@ -88,5 +88,13 @@ span {
 	font-size: 1.4em;
 	vertical-align: middle;
 	font-family: "Inconsolata", monospace;
+	
+	border-right: 2px solid rgba(102,104,127,.75);
+	animation: blinkTextCursor 1050ms steps(2, start) infinite normal;
+}
+
+@keyframes blinkTextCursor{
+  	from{border-right-color: rgba(102,104,127,.75);}
+	to 	{border-right-color: transparent;}
 }
 
