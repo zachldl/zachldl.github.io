@@ -1,4 +1,5 @@
 html {
+	cursor: url(cursortest.png), auto;
 	marign: 0px;
 	padding: 0px;
 	height: 100%;
