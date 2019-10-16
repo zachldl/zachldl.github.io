@@ -10,7 +10,7 @@ $(document).ready(function(){
 function typeWriter(){
 	if(i < content.length){
 		$("#bottomtext").append(content.charAt(i));
-		$("title").append(content.charAt(i));
+		# $("title").append(content.charAt(i));
 		i++;
 		setTimeout(typeWriter, speed);
 	} else {
